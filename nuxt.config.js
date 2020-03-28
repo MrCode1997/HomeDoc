@@ -8,7 +8,8 @@ export default {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
@@ -23,7 +24,13 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/main.scss'
   ],
+  styleResources: {
+    scss: [
+      './assets/_colors.scss',
+    ]
+  },
   /*
   ** Plugins to load before mounting the App
   */
@@ -41,6 +48,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/style-resources',
   ],
   /*
   ** Axios module configuration
