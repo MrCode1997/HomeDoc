@@ -13,7 +13,7 @@ export default {
   },
 }
 </script>
-<style>
+<style lang="scss" scoped>
   p {
     padding-top: 60px;
     font-size: 18px;;

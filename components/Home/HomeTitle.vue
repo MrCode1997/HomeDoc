@@ -1,6 +1,6 @@
 <template>
   <p class="home-title">
-    Home Doc
+    <img src="/icon.png" />
   </p>
 </template>
 <script>
@@ -13,5 +13,8 @@ export default {
    color: $blue-main;
    font-size: 32px;
    font-weight: bold;
+   img {
+     width: 200px;
+   }
  }
 </style>

@@ -1,12 +1,7 @@
 export default [
-  { label: 'Tosse', value: 'Tosse' },
-  { label: 'Dolore muscolare influenza,', value: 'Dolore muscolare influenza,' },
-  { label: 'Fame D aria', value: 'Fame D aria' },
-  { label: 'Diarrea', value: 'Diarrea' },
-  { label: 'Nausea', value: 'Nausea' },
-  { label: 'Vomito', value: 'Vomito' },
-  { label: 'Perdita olfatto', value: 'Perdita olfatto' },
-  { label: 'Perdita gusto', value: 'Perdita gusto' },
-  { label: 'Temperatura', value: 'Temperatura' },
-  { label: 'Saturazione', value: 'Saturazione' },
+  { label: 'Tosse', value: 'symptom_cough' },
+  { label: 'Dolore muscolare influenza,', value: 'symptom_pain_ache' },
+  { label: 'Fame D aria', value: 'symptom_breath_difficult' },
+  { label: 'Diarrea, Nausea, vomito', value: 'symptom_dyarrea_nausea_vomit' },
+  { label: 'Perdita Olfatto/Gusto', value: 'symptom_loss_of_smell_taste' },
 ];

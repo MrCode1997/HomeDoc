@@ -1,6 +1,6 @@
 <template>
   <div class="page" id="patologie">
-    <PagesTitle title="Diagnosi Iniziale" />
+    <PagesTitle title="Inserisci dati iniziali" />
     <PagesSubTitle subtitle="Sei per caso affetto da patologie croniche?" />
     <HomeDocRadio  @select="(emittedPatologies) => { $store.commit('user/SET_PATOLOGIES', emittedPatologies) }" :selected="patologies" title="Patologie"  :options="options"/>
     <HomeDocInput placeholder="Altro" width="70" />

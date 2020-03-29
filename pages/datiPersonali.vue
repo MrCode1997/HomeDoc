@@ -1,6 +1,6 @@
 <template>
   <div class="page" id="dati-personali">
-    <PagesTitle />
+    <PagesTitle title="Inserisci dati iniziali" />
     <HomeDocInput placeholder="Nome" :value="name" @input="(emittedName) => { $store.commit('user/SET_NAME', emittedName) }" width="100" />
     <HomeDocInput placeholder="Cognome" :value="lastName" @input="(emittedLastName) => { $store.commit('user/SET_LAST_NAME', emittedLastName) }" width="100" />
     <HomeDocInput placeholder="Eta" :value="age" @input="(emittedAge) => { $store.commit('user/SET_AGE', emittedAge) }" width="70" />

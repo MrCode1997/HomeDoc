@@ -1,0 +1,17 @@
+export default [
+  'Se si sospetta un’infezione l’Istituto Superiore di Sanità consiglia di indossare una mascherina chirurgica o se non ce l’hai, una semplice bandana, mantenere la distanza dai propri famigliari e disinfettare oggetti di uso comune.',
+  'Distrarsi dalle cose che ci preoccupano, fa bene. Prova a visitare la biblioteca digitale su internet',
+  'Il buon umore influisce positivamente sulla salute guarda un film che fa ridere. A me fa sempre ridere Frankenstein Junior',
+  'Lavarsi le mani è la pratica igienica più semplice e fondamentale per prevenire le infezioni. Fu un’intuizione di Ignac Semmelweiss',
+  'Stare sempre in casa non è facile, hai guardato se ti può interessare qualcosa in questo sito? https://www.raffaelegaito.com/cose-gratis-da-fare-online',
+  'La routine genera sicurezza. Anche se hai cambiato le tue soliti abitudini e non puoi andare a lavorare fuori, organizza il tempo a disposizione e tieni impegnata la mente',
+  'Fare esercizio fisico resta importante, anche dentro casa!',
+  'Dopo 2 ore dall’assunzione di farmaci antipiretici (?) prova a misurarti di nuovo la febbre.',
+  'Forse non hai voglia di ridere, ma lo sai che una risata migliora l’umore e la resistenza allo stress? Anche una finta, addirittura indotta. Esiste lo yoga della risata. Prova https://www.youtube.com/watch?v=XlhfYyJrFpk',
+  'Ricordati di lavarti spesso le mani per almeno 40-60 secondi con acqua e sapone',
+  'L’Istitituto superiore di sanità consiglia di cambiare spesso l’aria',
+  'I guanti non sostituiscono la corretta igiene delle mani, meglio lavarsi le mani più spesso',
+  'Nelle situazioni critiche, possono circolare più bufale del solito. Verifica sempre quello che ti viene detto o leggi su internet su siti istituzionali',
+  'In queste situazioni è importante gestire lo stress',
+  'Se hai il dubbio di avere contratto il Coronavirus, non devi più fare la raccolta differenziata, ma gestire tutti i rifiuti come indifferenziati ',
+];

@@ -9,11 +9,14 @@ export const state = () => ({
   age: '',
   gender: '',
   patologies: [],
+  sintomsHistory: [],
   sintoms: {
     list: [],
     temp: null,
   },
   medicinals: [],
+  medicinalsHistory: [],
+  parametersHistory: [],
 });
 
 export { actions };

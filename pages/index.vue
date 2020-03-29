@@ -16,6 +16,11 @@ export default {
     HomeDocButton,
     InfoHint,
     HomeTitle,
+  },
+  async created() {
+    if (await this.$store.dispatch('user/fetchLocal')) {
+      this.$router.push('homeClient');
+    }
   }
 }
 </script>

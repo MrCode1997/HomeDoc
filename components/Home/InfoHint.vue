@@ -1,6 +1,6 @@
 <template>
   <p class="home-info-text" >
-    Home Doc è la prima App, che ti permette di effettuare una rapida autodiagnosi sul COVID-19, attraverso i tuoi dati e la sua intelligenza artificiale.
+    Con Home Doc puoi tenere aggiornato il tuo diario sanitario quotidianamente, ricevendo sempre un utile consiglio. Il tuo medico potra` seguirti da vicino.
   </p>
 </template>
 <script>

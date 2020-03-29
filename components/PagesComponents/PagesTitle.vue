@@ -1,11 +1,16 @@
 <template>
   <p class="pages-title">
-    Diagnosi iniziale
+    {{ title }}
   </p>
 </template>
 <script>
 export default {
   name: 'PagesTitle',
+  props: {
+    title: {
+      type: String,
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>

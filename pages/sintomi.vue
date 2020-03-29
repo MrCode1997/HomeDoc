@@ -1,6 +1,6 @@
 <template>
   <div class="page" id="sintomi">
-    <PagesTitle title="Diagnosi Iniziale" />
+    <PagesTitle :title="$store.state.user.sintomsHistory.length === 0 ? 'Inserisci dati iniziali' : 'Inserisci sintomi'" />
     <PagesSubTitle subtitle="Quali sono i sintomi che avverti in questo momento?" />
     <HomeDocRadio  @select="(emittedSintoms) => { $store.commit('user/SET_SINTOMS_LIST', emittedSintoms) }" :selected="sintoms.list" title="Sintomi"  :options="options"/>
     <HomeDocInput placeholder="Temperatura" :value="sintoms.temp" @input="(emittedTemp) => { $store.commit('user/SET_SINTOMS_TEMP', emittedTemp) }" width="70" />
