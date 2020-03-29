@@ -1,6 +1,6 @@
 <template>
   <p class="home-title">
-    <img src="/icon.png" />
+    <img src="/HomeDoc/icon.png" />
   </p>
 </template>
 <script>

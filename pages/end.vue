@@ -39,7 +39,7 @@ p {
   text-align: center;
 }
 .image {
-  background: url("/endMainImage.png") center;
+  background: url("/HomeDoc/endMainImage.png") center;
   background-size: 250px;
   background-repeat: no-repeat;
   width: 100%;

@@ -67,6 +67,6 @@ export default {
     }
   },
   router: {
-    base: '/HomeDocApp/'
+    base: '/HomeDoc/'
   }
 }
